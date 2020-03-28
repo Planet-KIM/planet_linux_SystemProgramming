@@ -1,0 +1,11 @@
+-------- gcc 명령어 정리하기 --------
+
+gcc -S file or cpp file 
+- cpp, compiler만 합니다.
+- Assemble/link는 하지 않습니다.
+result 아무파일도 나오지 않지만 저장하고 싶다면 gcc -S file -o file
+
+gcc -c file
+- cpp, compiler, assembler만 합니다.
+- link는 하지 않습니다.
+result main.o
