@@ -9,3 +9,5 @@ gcc -c file
 - cpp, compiler, assembler만 합니다.
 - link는 하지 않습니다.
 result main.o
+
+gcc .c -L. -l:*.a
